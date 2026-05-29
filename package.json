@@ -1,11 +1,19 @@
 {
-  "name": "multi-ai-agent-pm-team",
+  "name": "ai-pm-agents-suite",
   "private": true,
   "version": "1.0.0",
-  "description": "A fully orchestrated 6-agent AI pipeline that transforms customer feedback into executive-ready strategy",
+  "description": "Unified suite of AI agents for product managers — a 6-agent orchestrated pipeline plus 3 standalone single-purpose agents (decision engine, financial analyst, stakeholder translator).",
   "author": "Varun Kulkarni (https://github.com/varunk130)",
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varunk130/ai-pm-agents-suite.git"
+  },
+  "homepage": "https://github.com/varunk130/ai-pm-agents-suite#readme",
+  "bugs": {
+    "url": "https://github.com/varunk130/ai-pm-agents-suite/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -3,10 +3,10 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "multi-ai-agent-pm-team"
+name = "ai-pm-agents-suite"
 version = "1.0.0"
-description = "Multi AI Agent PM Team Pipeline — sequential agent orchestration for product management workflows. Built by Varun Kulkarni."
-readme = "pipeline/README.md"
+description = "AI PM Agents Suite — sequential 6-agent pipeline plus standalone single-purpose agents for product managers. Built by Varun Kulkarni."
+readme = "pipelines/feedback-to-strategy/pipeline/README.md"
 license = {text = "MIT"}
 requires-python = ">=3.11"
 authors = [
