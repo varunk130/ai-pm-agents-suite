@@ -1,6 +1,4 @@
-# Reconciliation Notes — Two `stakeholder-translator` agents
-
-> Resolves chore issue #5.
+# Notes — Two `stakeholder-translator` agents
 
 ## TL;DR
 
@@ -24,12 +22,11 @@ Two agents with the same name and overlapping purpose is a natural first candida
 3. **Different latency profile.** The standalone agent is meant to be called interactively for a one-off update. The pipeline agent runs after several seconds of upstream processing.
 4. **Composability is preserved.** A caller who runs the full pipeline gets the pipeline-grounded comms automatically. A caller who has only one update reaches for the standalone agent.
 
-## What changed as part of this chore
+## How the variants stay clearly separated
 
-- Both READMEs now explicitly cross-reference each other and explain the difference at the top.
+- Both READMEs cross-reference each other and explain the difference at the top.
 - This notes document captures the decision rationale for future contributors.
-- `docs/agent-catalog.md` and `docs/comparison.md` were updated to remove "PR 5 will reconcile" breadcrumbs.
-- The cognitive-function index in `docs/agent-catalog.md` lists both variants under Audience Adaptation.
+- The cognitive-function index in `docs/agent-catalog.md` lists both variants explicitly under Audience Adaptation, with a side-by-side table.
 
 ## When to revisit
 
