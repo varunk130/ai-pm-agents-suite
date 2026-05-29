@@ -1,5 +1,5 @@
 """
-Pytest fixtures for the Multi AI Agent PM Team pipeline tests.
+Pytest fixtures for the AI PM Agents Suite — Feedback-to-Strategy Pipeline tests.
 
 All data is 100% synthetic. Built by Varun Kulkarni.
 """
