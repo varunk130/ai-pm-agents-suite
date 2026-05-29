@@ -10,7 +10,7 @@ Built by Varun Kulkarni.
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Literal
 
 from pydantic import BaseModel, Field, field_validator
@@ -320,7 +320,7 @@ class PipelineResult(BaseModel):
     )
     total_duration_ms: float = Field(..., ge=0)
     timestamp: str = Field(
-        default_factory=lambda: datetime.utcnow().isoformat(),
+        default_factory=lambda: datetime.now(timezone.utc).isoformat(),
         description="ISO timestamp of pipeline completion",
     )
     pipeline_version: str = Field(default="1.0.0")

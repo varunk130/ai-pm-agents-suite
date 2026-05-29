@@ -257,10 +257,10 @@ This agent runs as part of the full pipeline orchestration. See the [main README
 
 ```bash
 # Run the full pipeline (recommended)
-npm start
+pipeline run
 
 # Run this agent in isolation (for development/testing)
-npm run agent:01
+pipeline agent 1
 ```
 
 ---
