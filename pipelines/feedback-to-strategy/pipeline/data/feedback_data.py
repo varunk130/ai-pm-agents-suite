@@ -1,5 +1,5 @@
 """
-Synthetic feedback ticket data for the Multi AI Agent PM Team pipeline.
+Synthetic feedback ticket data for the AI PM Agents Suite — Feedback-to-Strategy Pipeline.
 
 All 50 tickets are 100% fictional. Company names, ARR figures, and
 descriptions are entirely fabricated for demonstration purposes.

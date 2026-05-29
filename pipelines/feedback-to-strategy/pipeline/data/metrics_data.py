@@ -1,5 +1,5 @@
 """
-Synthetic product metrics data for the Multi AI Agent PM Team pipeline.
+Synthetic product metrics data for the AI PM Agents Suite — Feedback-to-Strategy Pipeline.
 
 Six months of fictional product metrics. All values are fabricated for
 demonstration purposes — no real company data.

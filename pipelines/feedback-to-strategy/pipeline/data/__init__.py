@@ -1,5 +1,5 @@
 """
-Synthetic data modules for the Multi AI Agent PM Team pipeline.
+Synthetic data modules for the AI PM Agents Suite — Feedback-to-Strategy Pipeline.
 All data is 100% fictional — no real customers, companies, or metrics.
 """
 
