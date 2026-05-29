@@ -15,7 +15,7 @@ They solve **different problems** and have **different input contracts**, so mer
 
 ## Why we considered consolidating
 
-When this suite was first assembled from two separate repos (`multi-ai-agent-pm-team` + `pm-copilots`), both contained an agent named `stakeholder-translator`. The natural first instinct was "deduplicate."
+Two agents with the same name and overlapping purpose is a natural first candidate for deduplication. The instinct was correct — but on inspection, the consolidation would have removed real capability.
 
 ## Why we chose to keep both
 

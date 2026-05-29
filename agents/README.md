@@ -14,8 +14,6 @@ Single-purpose AI agents for product managers. Use these when an input maps dire
 
 See [`./SAMPLES.md`](./SAMPLES.md) for end-to-end example scenarios.
 
-## Origin
+## Two `stakeholder-translator` implementations
 
-These agents were migrated from the `pm-copilots` repository. See [`./ATTRIBUTION.md`](./ATTRIBUTION.md).
-
-> **Note:** A `stakeholder-translator` also exists in [`../pipelines/feedback-to-strategy/agents/06-stakeholder-translator/`](../pipelines/feedback-to-strategy/agents/06-stakeholder-translator/). The pipeline variant is the *terminal* stage of the multi-agent pipeline; this standalone variant is for ad-hoc one-off communications. PR 5 reconciles overlap between them.
+A `stakeholder-translator` also exists in [`../pipelines/feedback-to-strategy/agents/06-stakeholder-translator/`](../pipelines/feedback-to-strategy/agents/06-stakeholder-translator/). The pipeline variant is the *terminal* stage of the multi-agent pipeline and operates on the full upstream context. This standalone variant operates on a raw, free-text update. See [`./STAKEHOLDER_TRANSLATOR_NOTES.md`](./STAKEHOLDER_TRANSLATOR_NOTES.md) for when to use which.

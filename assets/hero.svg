@@ -1,89 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" fill="none" role="img" aria-label="AI PM Agents Suite — A 6-agent pipeline plus 3 standalone copilots for product managers">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" fill="none" role="img" aria-label="AI PM Agents Suite — Multi-agent AI that does the synthesis, modeling, and stakeholder framing for product managers">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f172a"/>
-      <stop offset="50%" style="stop-color:#1e293b"/>
-      <stop offset="100%" style="stop-color:#0f172a"/>
+      <stop offset="0%" style="stop-color:#0a1733"/>
+      <stop offset="50%" style="stop-color:#142447"/>
+      <stop offset="100%" style="stop-color:#0a1733"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#6366f1"/>
-      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f4c430"/>
+      <stop offset="100%" style="stop-color:#d4af37"/>
     </linearGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="300" fill="url(#bg)" rx="12"/>
+  <rect width="1200" height="380" fill="url(#bg)" rx="12"/>
 
   <!-- Subtle grid -->
-  <g opacity="0.04" stroke="#94a3b8" stroke-width="0.5">
-    <line x1="0" y1="50" x2="1200" y2="50"/><line x1="0" y1="100" x2="1200" y2="100"/>
-    <line x1="0" y1="150" x2="1200" y2="150"/><line x1="0" y1="200" x2="1200" y2="200"/>
-    <line x1="0" y1="250" x2="1200" y2="250"/>
-    <line x1="100" y1="0" x2="100" y2="300"/><line x1="200" y1="0" x2="200" y2="300"/>
-    <line x1="300" y1="0" x2="300" y2="300"/><line x1="400" y1="0" x2="400" y2="300"/>
-    <line x1="500" y1="0" x2="500" y2="300"/><line x1="600" y1="0" x2="600" y2="300"/>
-    <line x1="700" y1="0" x2="700" y2="300"/><line x1="800" y1="0" x2="800" y2="300"/>
-    <line x1="900" y1="0" x2="900" y2="300"/><line x1="1000" y1="0" x2="1000" y2="300"/>
-    <line x1="1100" y1="0" x2="1100" y2="300"/>
+  <g opacity="0.05" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="76" x2="1200" y2="76"/>
+    <line x1="0" y1="190" x2="1200" y2="190"/>
+    <line x1="0" y1="304" x2="1200" y2="304"/>
   </g>
 
-  <!-- Glow orbs -->
-  <ellipse cx="200" cy="150" rx="200" ry="120" fill="#6366f1" opacity="0.06"/>
-  <ellipse cx="1000" cy="150" rx="200" ry="120" fill="#8b5cf6" opacity="0.06"/>
+  <!-- Glow accents -->
+  <ellipse cx="200" cy="190" rx="240" ry="140" fill="#d4af37" opacity="0.06"/>
+  <ellipse cx="1000" cy="190" rx="240" ry="140" fill="#d4af37" opacity="0.06"/>
 
-  <!-- Accent line -->
-  <rect x="100" y="248" width="1000" height="2" fill="url(#accent)" rx="1" opacity="0.4"/>
+  <!-- Top gold accent line -->
+  <rect x="80" y="42" width="80" height="3" rx="1.5" fill="url(#gold)"/>
 
-  <!-- Logo glyph: 2x2 agent network -->
-  <g transform="translate(100, 80)">
-    <rect width="56" height="56" rx="12" fill="url(#accent)" opacity="0.18"/>
-    <circle cx="18" cy="18" r="5" fill="#a78bfa"/>
-    <circle cx="38" cy="18" r="5" fill="#a78bfa" opacity="0.7"/>
-    <circle cx="18" cy="38" r="5" fill="#a78bfa" opacity="0.7"/>
-    <circle cx="38" cy="38" r="5" fill="#a78bfa"/>
-    <line x1="18" y1="18" x2="38" y2="18" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
-    <line x1="18" y1="38" x2="38" y2="38" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
-    <line x1="18" y1="18" x2="18" y2="38" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
-    <line x1="38" y1="18" x2="38" y2="38" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
+  <!-- Logo glyph: 2x2 agent network in gold -->
+  <g transform="translate(80, 62)">
+    <rect width="56" height="56" rx="12" fill="#d4af37" opacity="0.15"/>
+    <circle cx="18" cy="18" r="5" fill="#f4c430"/>
+    <circle cx="38" cy="18" r="5" fill="#f4c430" opacity="0.75"/>
+    <circle cx="18" cy="38" r="5" fill="#f4c430" opacity="0.75"/>
+    <circle cx="38" cy="38" r="5" fill="#f4c430"/>
+    <line x1="18" y1="18" x2="38" y2="18" stroke="#f4c430" stroke-width="1.5" opacity="0.6"/>
+    <line x1="18" y1="38" x2="38" y2="38" stroke="#f4c430" stroke-width="1.5" opacity="0.6"/>
+    <line x1="18" y1="18" x2="18" y2="38" stroke="#f4c430" stroke-width="1.5" opacity="0.6"/>
+    <line x1="38" y1="18" x2="38" y2="38" stroke="#f4c430" stroke-width="1.5" opacity="0.6"/>
   </g>
 
   <!-- Title -->
-  <text x="176" y="118" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#f1f5f9" letter-spacing="-0.5">AI PM Agents Suite</text>
+  <text x="156" y="100" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="-1">AI PM Agents Suite</text>
 
-  <!-- Subtitle -->
-  <text x="178" y="152" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#94a3b8">A 6-agent pipeline + 3 standalone copilots for product managers</text>
+  <!-- One-line description -->
+  <text x="156" y="135" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#e8d18a">Multi-agent AI that does the synthesis, modeling, and stakeholder framing — so PMs can focus on strategy.</text>
 
-  <!-- Stat pills -->
-  <g transform="translate(178, 175)">
-    <rect width="100" height="28" rx="14" fill="#6366f1" opacity="0.15"/>
-    <text x="50" y="19" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#a78bfa">9 Agents</text>
-  </g>
-  <g transform="translate(290, 175)">
-    <rect width="110" height="28" rx="14" fill="#6366f1" opacity="0.15"/>
-    <text x="55" y="19" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#a78bfa">1 Pipeline</text>
-  </g>
-  <g transform="translate(412, 175)">
-    <rect width="120" height="28" rx="14" fill="#6366f1" opacity="0.15"/>
-    <text x="60" y="19" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#a78bfa">3 Copilots</text>
-  </g>
-  <g transform="translate(544, 175)">
-    <rect width="130" height="28" rx="14" fill="#6366f1" opacity="0.15"/>
-    <text x="65" y="19" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#a78bfa">All synthetic</text>
+  <!-- Divider -->
+  <rect x="80" y="170" width="1040" height="1" fill="#ffffff" opacity="0.12"/>
+
+  <!-- LEFT COLUMN: What's included -->
+  <text x="80" y="208" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="url(#gold)" letter-spacing="2">WHAT'S INCLUDED</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" fill="#ffffff">
+    <!-- Item 1 -->
+    <text x="80" y="240" font-size="17" font-weight="600">6-agent feedback-to-strategy pipeline</text>
+    <text x="80" y="262" font-size="14" font-weight="400" opacity="0.75">Raw tickets + metrics → PRD, strategy, stakeholder comms</text>
+
+    <!-- Item 2 -->
+    <text x="80" y="296" font-size="17" font-weight="600">3 standalone PM copilots</text>
+    <text x="80" y="318" font-size="14" font-weight="400" opacity="0.75">Decision Engine · Financial Analyst · Stakeholder Translator</text>
   </g>
 
-  <!-- Right-side terminal panel -->
-  <g transform="translate(720, 60)" opacity="0.9">
-    <rect width="380" height="180" rx="8" fill="#0b1220" stroke="#334155" stroke-width="1"/>
-    <circle cx="16" cy="14" r="5" fill="#f87171" opacity="0.7"/>
-    <circle cx="32" cy="14" r="5" fill="#fbbf24" opacity="0.7"/>
-    <circle cx="48" cy="14" r="5" fill="#34d399" opacity="0.7"/>
-    <text x="16" y="48" font-family="Consolas, Monaco, monospace" font-size="13" fill="#6366f1">$</text>
-    <text x="28" y="48" font-family="Consolas, Monaco, monospace" font-size="13" fill="#94a3b8"> pipeline run</text>
-    <text x="16" y="68" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [1/6] customer-feedback-pipeline</text>
-    <text x="16" y="86" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [2/6] data-scientist</text>
-    <text x="16" y="104" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [3/6] metrics-narrator</text>
-    <text x="16" y="122" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [4/6] chief-of-staff</text>
-    <text x="16" y="140" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [5/6] prd-architect</text>
-    <text x="16" y="158" font-family="Consolas, Monaco, monospace" font-size="12" fill="#34d399">  [6/6] stakeholder-translator  ✓</text>
+  <!-- RIGHT COLUMN: Value delivered -->
+  <text x="640" y="208" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="url(#gold)" letter-spacing="2">VALUE DELIVERED</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" fill="#ffffff" font-size="15" font-weight="500">
+    <!-- Bullet 1 -->
+    <circle cx="650" cy="234" r="3" fill="#f4c430"/>
+    <text x="666" y="239">Strategy synthesized from messy qualitative + quantitative inputs</text>
+
+    <!-- Bullet 2 -->
+    <circle cx="650" cy="266" r="3" fill="#f4c430"/>
+    <text x="666" y="271">Defensible business cases with explicit assumption sourcing</text>
+
+    <!-- Bullet 3 -->
+    <circle cx="650" cy="298" r="3" fill="#f4c430"/>
+    <text x="666" y="303">Audience-ready communications without the rewrite cycle</text>
+
+    <!-- Bullet 4 -->
+    <circle cx="650" cy="330" r="3" fill="#f4c430"/>
+    <text x="666" y="335">Hours of PM grunt work, compressed into seconds</text>
   </g>
 </svg>
