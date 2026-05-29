@@ -83,7 +83,7 @@ class PipelineOrchestrator:
         self.console.print()
         self.console.print(
             Panel(
-                "[bold cyan]Multi AI Agent PM Team Pipeline[/bold cyan]\n"
+                "[bold cyan]AI PM Agents Suite — Feedback-to-Strategy Pipeline[/bold cyan]\n"
                 "[dim]Sequential agent orchestration for product management[/dim]\n"
                 f"[dim]Agents: {len(self._agents)} | "
                 f"Started: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}[/dim]",

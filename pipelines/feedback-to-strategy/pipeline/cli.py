@@ -1,5 +1,5 @@
 """
-CLI interface for the Multi AI Agent PM Team pipeline.
+CLI interface for the AI PM Agents Suite — Feedback-to-Strategy Pipeline.
 
 Provides commands to run the pipeline, list agents, and inspect data.
 Built with Click and Rich for a polished terminal experience.
@@ -28,7 +28,7 @@ console = Console()
 @click.group()
 @click.version_option(version=__version__, prog_name="pipeline")
 def main() -> None:
-    """Multi AI Agent PM Team — sequential pipeline orchestration CLI."""
+    """AI PM Agents Suite — sequential pipeline orchestration CLI."""
 
 
 @main.command()
@@ -145,7 +145,7 @@ def data() -> None:
 @main.command()
 def version() -> None:
     """Show pipeline version information."""
-    console.print(f"[bold cyan]Multi AI Agent PM Team Pipeline[/bold cyan]  v{__version__}")
+    console.print(f"[bold cyan]AI PM Agents Suite — Feedback-to-Strategy Pipeline[/bold cyan]  v{__version__}")
     console.print("[dim]Built by Varun Kulkarni[/dim]")
     console.print("[dim]Works with Claude Code and GitHub Copilot[/dim]")
 

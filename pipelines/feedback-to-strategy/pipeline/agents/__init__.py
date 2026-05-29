@@ -1,5 +1,5 @@
 """
-Agent modules for the Multi AI Agent PM Team pipeline.
+Agent modules for the AI PM Agents Suite — Feedback-to-Strategy Pipeline.
 Each agent implements a specific cognitive function in the sequential pipeline.
 """
 
