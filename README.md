@@ -1,11 +1,19 @@
+<div align="center">
+
+<img src="assets/hero.svg" alt="AI PM Agents Suite — A 6-agent pipeline plus 3 standalone copilots for product managers" width="100%"/>
+
 # 🧠 AI PM Agents Suite
 
 **A unified collection of AI agents for product managers — a 6-agent orchestrated pipeline plus 3 standalone single-purpose agents, all in one place.**
 
-[![Claude](https://img.shields.io/badge/Powered_by-Claude-6366F1)](https://claude.ai)
-[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-6366F1)](https://claude.ai/code)
-[![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot_Ready-22272E)](https://github.com/features/copilot)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Claude](https://img.shields.io/badge/Powered_by-Claude-6366F1?style=for-the-badge)](https://claude.ai)
+[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-6366F1?style=for-the-badge)](https://claude.ai/code)
+[![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot_Ready-22272E?style=for-the-badge)](https://github.com/features/copilot)
+[![License](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](./LICENSE)
+
+[**Quick Start**](#quick-start) · [**What's Inside**](#whats-inside) · [**When to use which**](#when-to-use-which) · [**Documentation**](#documentation)
+
+</div>
 
 **Built by [Varun Kulkarni](https://github.com/varunk130)** · Works with Claude Code & GitHub Copilot · [Contributing](./CONTRIBUTING.md)
 
@@ -75,8 +83,10 @@ npm run dev          # http://localhost:5173
 # Python pipeline orchestrator
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1     # Windows
+# source .venv/bin/activate      # macOS / Linux
 pip install -r requirements.txt
-python -m pipelines.feedback_to_strategy.pipeline.cli
+cd pipelines/feedback-to-strategy
+python -m pipeline.cli run
 ```
 
 ## Documentation

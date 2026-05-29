@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" fill="none" role="img" aria-label="AI PM Agents Suite — A 6-agent pipeline plus 3 standalone copilots for product managers">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)" rx="12"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#94a3b8" stroke-width="0.5">
+    <line x1="0" y1="50" x2="1200" y2="50"/><line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/><line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="100" y1="0" x2="100" y2="300"/><line x1="200" y1="0" x2="200" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/><line x1="400" y1="0" x2="400" y2="300"/>
+    <line x1="500" y1="0" x2="500" y2="300"/><line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="700" y1="0" x2="700" y2="300"/><line x1="800" y1="0" x2="800" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/><line x1="1000" y1="0" x2="1000" y2="300"/>
+    <line x1="1100" y1="0" x2="1100" y2="300"/>
+  </g>
+
+  <!-- Glow orbs -->
+  <ellipse cx="200" cy="150" rx="200" ry="120" fill="#6366f1" opacity="0.06"/>
+  <ellipse cx="1000" cy="150" rx="200" ry="120" fill="#8b5cf6" opacity="0.06"/>
+
+  <!-- Accent line -->
+  <rect x="100" y="248" width="1000" height="2" fill="url(#accent)" rx="1" opacity="0.4"/>
+
+  <!-- Logo glyph: 2x2 agent network -->
+  <g transform="translate(100, 80)">
+    <rect width="56" height="56" rx="12" fill="url(#accent)" opacity="0.18"/>
+    <circle cx="18" cy="18" r="5" fill="#a78bfa"/>
+    <circle cx="38" cy="18" r="5" fill="#a78bfa" opacity="0.7"/>
+    <circle cx="18" cy="38" r="5" fill="#a78bfa" opacity="0.7"/>
+    <circle cx="38" cy="38" r="5" fill="#a78bfa"/>
+    <line x1="18" y1="18" x2="38" y2="18" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
+    <line x1="18" y1="38" x2="38" y2="38" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
+    <line x1="18" y1="18" x2="18" y2="38" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
+    <line x1="38" y1="18" x2="38" y2="38" stroke="#a78bfa" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- Title -->
+  <text x="176" y="118" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#f1f5f9" letter-spacing="-0.5">AI PM Agents Suite</text>
+
+  <!-- Subtitle -->
+  <text x="178" y="152" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#94a3b8">A 6-agent pipeline + 3 standalone copilots for product managers</text>
+
+  <!-- Stat pills -->
+  <g transform="translate(178, 175)">
+    <rect width="100" height="28" rx="14" fill="#6366f1" opacity="0.15"/>
+    <text x="50" y="19" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#a78bfa">9 Agents</text>
+  </g>
+  <g transform="translate(290, 175)">
+    <rect width="110" height="28" rx="14" fill="#6366f1" opacity="0.15"/>
+    <text x="55" y="19" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#a78bfa">1 Pipeline</text>
+  </g>
+  <g transform="translate(412, 175)">
+    <rect width="120" height="28" rx="14" fill="#6366f1" opacity="0.15"/>
+    <text x="60" y="19" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#a78bfa">3 Copilots</text>
+  </g>
+  <g transform="translate(544, 175)">
+    <rect width="130" height="28" rx="14" fill="#6366f1" opacity="0.15"/>
+    <text x="65" y="19" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#a78bfa">All synthetic</text>
+  </g>
+
+  <!-- Right-side terminal panel -->
+  <g transform="translate(720, 60)" opacity="0.9">
+    <rect width="380" height="180" rx="8" fill="#0b1220" stroke="#334155" stroke-width="1"/>
+    <circle cx="16" cy="14" r="5" fill="#f87171" opacity="0.7"/>
+    <circle cx="32" cy="14" r="5" fill="#fbbf24" opacity="0.7"/>
+    <circle cx="48" cy="14" r="5" fill="#34d399" opacity="0.7"/>
+    <text x="16" y="48" font-family="Consolas, Monaco, monospace" font-size="13" fill="#6366f1">$</text>
+    <text x="28" y="48" font-family="Consolas, Monaco, monospace" font-size="13" fill="#94a3b8"> pipeline run</text>
+    <text x="16" y="68" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [1/6] customer-feedback-pipeline</text>
+    <text x="16" y="86" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [2/6] data-scientist</text>
+    <text x="16" y="104" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [3/6] metrics-narrator</text>
+    <text x="16" y="122" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [4/6] chief-of-staff</text>
+    <text x="16" y="140" font-family="Consolas, Monaco, monospace" font-size="12" fill="#64748b">  [5/6] prd-architect</text>
+    <text x="16" y="158" font-family="Consolas, Monaco, monospace" font-size="12" fill="#34d399">  [6/6] stakeholder-translator  ✓</text>
+  </g>
+</svg>

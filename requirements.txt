@@ -1,4 +1,4 @@
-# Multi AI Agent PM Team — Python Pipeline Dependencies
+# AI PM Agents Suite — Python Pipeline Dependencies
 # Built by Varun Kulkarni
 # All data is 100% synthetic. No real customer data. No API keys committed.
 anthropic>=0.40.0

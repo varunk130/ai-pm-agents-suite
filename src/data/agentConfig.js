@@ -123,7 +123,7 @@ export const AGENTS = [
 ];
 
 export const PIPELINE_CONFIG = {
-  name: 'Multi AI Agent PM Team',
+  name: 'AI PM Agents Suite',
   version: '1.0.0',
   author: 'Varun Kulkarni',
   totalAgents: AGENTS.length,

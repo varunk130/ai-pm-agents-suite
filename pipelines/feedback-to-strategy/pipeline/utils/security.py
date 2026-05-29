@@ -1,5 +1,5 @@
 """
-Security utilities for the Multi AI Agent PM Team pipeline.
+Security utilities for the AI PM Agents Suite — Feedback-to-Strategy Pipeline.
 
 Provides validation and sanitization functions to ensure no PII or
 sensitive data leaks into pipeline outputs. All data processed by this

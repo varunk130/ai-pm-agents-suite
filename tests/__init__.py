@@ -1,1 +1,1 @@
-# Tests for the Multi AI Agent PM Team pipeline.
+# Tests for the AI PM Agents Suite — Feedback-to-Strategy Pipeline.

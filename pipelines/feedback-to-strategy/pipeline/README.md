@@ -1,4 +1,4 @@
-# Multi AI Agent PM Team — Python Pipeline
+# AI PM Agents Suite — Feedback-to-Strategy Pipeline
 
 **Built by Varun Kulkarni** · Works with Claude Code and GitHub Copilot
 
@@ -23,9 +23,14 @@ recommendations and stakeholder communications.
 ## Installation
 
 ```bash
-cd multi-ai-agent-pm-team
+# From the repo root:
+cd pipelines/feedback-to-strategy
 pip install -e ".[dev]"
 ```
+
+> **Note:** `pyproject.toml` lives at the repository root, not inside this
+> directory. The `cd` above just puts you in the working directory the CLI
+> expects.
 
 ## Usage
 
@@ -60,20 +65,20 @@ result = orchestrator.run(verbose=True)
 agent1_output = orchestrator.get_agent_output(1)
 ```
 
-### Scripts
+## Testing
+
+```bash
+pytest                       # Run all tests
+pytest tests/test_security.py  # Run a specific test file
+pytest -v                    # Verbose output
+```
+
+## Scripts
 
 ```bash
 python scripts/run_pipeline.py        # Run with Rich output
 python scripts/analyze_data.py        # Analyze synthetic data
 python scripts/validate_outputs.py    # Validate all agent outputs
-```
-
-## Testing
-
-```bash
-pytest                     # Run all tests
-pytest tests/test_agents.py  # Run agent tests only
-pytest -v                  # Verbose output
 ```
 
 ## Security

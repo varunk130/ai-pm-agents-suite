@@ -106,7 +106,7 @@ DEFAULT_AGENTS: list[dict] = [
 
 class PipelineConfig(BaseSettings):
     """
-    Root configuration for the Multi AI Agent PM Team pipeline.
+    Root configuration for the AI PM Agents Suite — Feedback-to-Strategy Pipeline.
 
     Values are loaded from environment variables prefixed with ``PIPELINE_``.
     A ``.env`` file in the project root is also supported.

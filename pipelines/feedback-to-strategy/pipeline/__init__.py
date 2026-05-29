@@ -1,5 +1,5 @@
 """
-Multi AI Agent PM Team — Python Pipeline.
+AI PM Agents Suite — Python Pipeline.
 
 Sequential agent orchestration for product management workflows.
 Built by Varun Kulkarni. Works with Claude Code and GitHub Copilot.

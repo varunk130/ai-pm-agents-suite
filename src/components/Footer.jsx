@@ -21,7 +21,7 @@ export function Footer() {
 
         <div className="flex items-center gap-2">
           <a
-            href="https://github.com/varunk130/multi-ai-agent-pm-team"
+            href="https://github.com/varunk130/ai-pm-agents-suite"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-lg border border-[#1A1F2E] bg-[#0E1117] px-3 py-1.5 text-xs font-medium text-[#D1D5DB] transition-colors hover:border-[#2A3344] hover:text-[#F4F4F5]"
