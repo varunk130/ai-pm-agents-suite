@@ -48,4 +48,4 @@ This is a unified suite of AI agents for product managers. It consolidates two e
 - `npm run dev` — frontend dev server.
 - `npm run build` — verify production build.
 - `npm run lint` — ESLint check.
-- `pytest` — Python agent tests.
+- `cd pipelines/feedback-to-strategy && pytest` — Python agent tests (103 tests).
