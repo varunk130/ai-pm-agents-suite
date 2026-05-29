@@ -1,7 +1,7 @@
 # 🧠 Agent #4: Chief of Staff
 
 > **Built by [Varun Kulkarni](https://github.com/varunk130)**
-> Part of the [Multi-AI Agent PM Team](../../README.md) orchestration system
+> Part of the [AI PM Agents Suite](../../README.md) orchestration system
 > Compatible with Claude Code and GitHub Copilot
 
 ---
@@ -328,4 +328,4 @@ npm run agent:04
 
 ---
 
-*Built by [Varun Kulkarni](https://github.com/varunk130) • Part of the Multi-AI Agent PM Team*
+*Built by [Varun Kulkarni](https://github.com/varunk130) • Part of the AI PM Agents Suite*
