@@ -32,7 +32,7 @@ Plus a **sensitivity classification table** (Safe / Caution / Internal Only) per
 
 There is also a `stakeholder-translator` inside the [6-agent pipeline](../../pipelines/feedback-to-strategy/agents/06-stakeholder-translator/). The pipeline variant is the *terminal* step of the multi-agent workflow and operates on the full upstream context (PRD, strategy, metrics). This standalone variant operates on a raw, free-text update.
 
-> See chore issue tracking the reconciliation plan.
+> See [`../STAKEHOLDER_TRANSLATOR_NOTES.md`](../STAKEHOLDER_TRANSLATOR_NOTES.md) for the full reconciliation decision and when each variant is the right choice.
 
 ## Files
 

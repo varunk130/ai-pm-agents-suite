@@ -47,4 +47,4 @@ Group agents by what they're good at:
 | **Use when** | You ran the end-to-end pipeline | You have a one-off update to communicate |
 | **Output** | 5 communications grounded in the strategic context | 5 communications + explicit sensitivity classification |
 
-> See PR 5 for the reconciliation chore.
+> See [`../agents/STAKEHOLDER_TRANSLATOR_NOTES.md`](../agents/STAKEHOLDER_TRANSLATOR_NOTES.md) for the full reconciliation decision and when each variant is the right choice.

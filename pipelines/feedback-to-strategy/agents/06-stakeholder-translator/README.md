@@ -1,8 +1,10 @@
-# 📣 Agent #6: Stakeholder Translator
+# 📣 Agent #6: Stakeholder Translator (pipeline variant)
 
 > **Built by [Varun Kulkarni](https://github.com/varunk130)**
 > Part of the [Multi-AI Agent PM Team](../../README.md) orchestration system
 > Compatible with Claude Code and GitHub Copilot
+
+> **🔀 Two variants exist.** This is the **pipeline** variant — it runs as the terminal stage of the 6-agent pipeline and operates on the full upstream context (PRD + strategy + correlations + themes). For a one-off update from a single raw free-text input, use the [standalone variant](../../../../agents/stakeholder-translator/) instead. See [`agents/STAKEHOLDER_TRANSLATOR_NOTES.md`](../../../../agents/STAKEHOLDER_TRANSLATOR_NOTES.md) for the reconciliation decision.
 
 ---
 
