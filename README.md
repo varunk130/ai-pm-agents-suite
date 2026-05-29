@@ -94,4 +94,8 @@ This repo consolidates two earlier projects:
 - `multi-ai-agent-pm-team` — the 6-agent pipeline + React dashboard
 - `pm-copilots` — the 3 standalone PM agents
 
-Both were merged here as a sequence of PRs (1 through 6). See [`agents/ATTRIBUTION.md`](./agents/ATTRIBUTION.md) for details.
+Both were merged here as a sequence of PRs (1 through 6). See [`CHANGELOG.md`](./CHANGELOG.md) for the full PR history and [`agents/ATTRIBUTION.md`](./agents/ATTRIBUTION.md) for per-file provenance.
+
+---
+
+<p align="center"><sub>Built by <a href="https://github.com/varunk130">Varun Kulkarni</a> · MIT licensed · All data synthetic</sub></p>
