@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "ai-pm-agents-suite"
 version = "1.0.0"
 description = "AI PM Agents Suite — sequential 6-agent pipeline plus standalone single-purpose agents for product managers. Built by Varun Kulkarni."
-readme = "pipelines/feedback-to-strategy/pipeline/README.md"
+readme = "pipeline/README.md"
 license = {text = "MIT"}
 requires-python = ">=3.11"
 authors = [
