@@ -83,7 +83,8 @@ npm run dev          # http://localhost:5173
 # Python pipeline orchestrator
 python -m venv .venv
 source .venv/bin/activate          # macOS / Linux
-# .\.venv\Scripts\Activate.ps1     # Windows (PowerShell)
+# Windows (PowerShell): .\.venv\Scripts\Activate.ps1
+# Windows (cmd):        .\.venv\Scripts\activate.bat
 pip install -r requirements.txt
 cd pipelines/feedback-to-strategy
 python -m pipeline.cli run
