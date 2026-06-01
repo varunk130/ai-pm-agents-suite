@@ -21,7 +21,7 @@
 
 ---
 
-## What's inside
+## What's Inside
 
 ```
 ai-pm-agents-suite/
@@ -60,7 +60,7 @@ Live in [`agents/`](./agents/).
 
 ---
 
-## When to use which
+## When to Use Which
 
 | Situation | Reach for |
 |-----------|-----------|
@@ -73,7 +73,7 @@ See [`docs/comparison.md`](./docs/comparison.md) for the full decision tree.
 
 ---
 
-## Quick start
+## Quick Start
 
 ```bash
 # Frontend (React 19 + Vite 7 dashboard)
