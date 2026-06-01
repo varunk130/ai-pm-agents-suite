@@ -21,7 +21,7 @@
 
 ---
 
-## What's inside
+## What's Inside
 
 ```
 ai-pm-agents-suite/
@@ -60,7 +60,7 @@ Live in [`agents/`](./agents/).
 
 ---
 
-## When to use which
+## When to Use Which
 
 | Situation | Reach for |
 |-----------|-----------|
@@ -73,7 +73,7 @@ See [`docs/comparison.md`](./docs/comparison.md) for the full decision tree.
 
 ---
 
-## Quick start
+## Quick Start
 
 ```bash
 # Frontend (React 19 + Vite 7 dashboard)
@@ -82,8 +82,8 @@ npm run dev          # http://localhost:5173
 
 # Python pipeline orchestrator
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1     # Windows
-# source .venv/bin/activate      # macOS / Linux
+source .venv/bin/activate          # macOS / Linux
+# .\.venv\Scripts\Activate.ps1     # Windows (PowerShell)
 pip install -r requirements.txt
 cd pipelines/feedback-to-strategy
 python -m pipeline.cli run
