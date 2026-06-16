@@ -90,6 +90,10 @@ cd pipelines/feedback-to-strategy
 python -m pipeline.cli run
 ```
 
+The React dashboard runs the full pipeline in the browser, streaming each agent's output as it works:
+
+![AI PM Agents Suite dashboard](./agents/screenshots/ai-pm-dashboard.png)
+
 ## Documentation
 
 - [`docs/overview.md`](./docs/overview.md) — what this suite is and how it's organized
