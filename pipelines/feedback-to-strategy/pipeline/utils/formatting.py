@@ -44,8 +44,3 @@ def format_duration(seconds: float) -> str:
     return f"{hours}h {mins}m {secs}s"
 
 
-def format_correlation(r: float) -> str:
-    """Format a correlation coefficient with strength label."""
-    strength = "strong" if abs(r) > 0.7 else "moderate" if abs(r) > 0.4 else "weak"
-    direction = "positive" if r > 0 else "negative"
-    return f"{r:+.3f} ({strength} {direction})"
