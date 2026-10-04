@@ -6,7 +6,6 @@ Built by Varun Kulkarni.
 
 from __future__ import annotations
 
-import math
 from typing import Sequence
 
 
@@ -45,13 +44,6 @@ def format_duration(seconds: float) -> str:
     hours = minutes // 60
     mins = minutes % 60
     return f"{hours}h {mins}m {secs}s"
-
-
-def truncate_text(text: str, max_length: int = 200, suffix: str = "…") -> str:
-    """Truncate text to ``max_length`` characters, appending ``suffix`` if trimmed."""
-    if len(text) <= max_length:
-        return text
-    return text[: max_length - len(suffix)] + suffix
 
 
 def create_severity_badge(severity: str) -> str:
