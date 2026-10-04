@@ -7,7 +7,6 @@ Built by Varun Kulkarni.
 from __future__ import annotations
 
 
-
 def format_currency(amount: int | float, decimals: int = 0) -> str:
     """Format a number as USD currency. E.g. 2500000 → '$2,500,000'."""
     if decimals > 0:
@@ -43,12 +42,6 @@ def format_duration(seconds: float) -> str:
     hours = minutes // 60
     mins = minutes % 60
     return f"{hours}h {mins}m {secs}s"
-
-
-def severity_to_number(severity: str) -> int:
-    """Convert severity string to a numeric value for sorting."""
-    mapping = {"critical": 4, "high": 3, "medium": 2, "low": 1}
-    return mapping.get(severity.lower(), 0)
 
 
 def format_correlation(r: float) -> str:
