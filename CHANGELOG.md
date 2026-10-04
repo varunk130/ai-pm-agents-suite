@@ -2,6 +2,16 @@
 
 All notable changes to the AI PM Agents Suite.
 
+## [Unreleased]
+
+### Changed
+
+- Corrected the ai-gtm-skill-library reference in Related Work to 37 skills.
+
+### Added
+
+- Line-ending normalization to LF in `.gitattributes`.
+
 ## [1.0.0] — 2026-05-29
 
 Initial release.
