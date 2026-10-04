@@ -42,5 +42,3 @@ def format_duration(seconds: float) -> str:
     hours = minutes // 60
     mins = minutes % 60
     return f"{hours}h {mins}m {secs}s"
-
-
