@@ -46,19 +46,6 @@ def format_duration(seconds: float) -> str:
     return f"{hours}h {mins}m {secs}s"
 
 
-def create_severity_badge(severity: str) -> str:
-    """Return a Rich-markup severity badge string."""
-    colors = {
-        "critical": "bold white on red",
-        "high": "bold white on dark_orange",
-        "medium": "bold black on yellow",
-        "low": "bold black on green",
-    }
-    style = colors.get(severity.lower(), "dim")
-    label = severity.upper()
-    return f"[{style}] {label} [/{style}]"
-
-
 def format_table(headers: Sequence[str], rows: Sequence[Sequence[str]]) -> str:
     """
     Format data as a simple ASCII table string.
