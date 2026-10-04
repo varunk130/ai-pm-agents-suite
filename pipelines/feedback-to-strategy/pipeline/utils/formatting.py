@@ -6,7 +6,6 @@ Built by Varun Kulkarni.
 
 from __future__ import annotations
 
-from typing import Sequence
 
 
 def format_currency(amount: int | float, decimals: int = 0) -> str:
@@ -44,35 +43,6 @@ def format_duration(seconds: float) -> str:
     hours = minutes // 60
     mins = minutes % 60
     return f"{hours}h {mins}m {secs}s"
-
-
-def format_table(headers: Sequence[str], rows: Sequence[Sequence[str]]) -> str:
-    """
-    Format data as a simple ASCII table string.
-
-    Useful for plain-text output when Rich is not available.
-    """
-    if not headers:
-        return ""
-
-    col_widths = [len(h) for h in headers]
-    for row in rows:
-        for i, cell in enumerate(row):
-            if i < len(col_widths):
-                col_widths[i] = max(col_widths[i], len(str(cell)))
-
-    sep = "+-" + "-+-".join("-" * w for w in col_widths) + "-+"
-    header_row = "| " + " | ".join(h.ljust(w) for h, w in zip(headers, col_widths)) + " |"
-
-    lines = [sep, header_row, sep]
-    for row in rows:
-        cells = []
-        for i, w in enumerate(col_widths):
-            cell = str(row[i]) if i < len(row) else ""
-            cells.append(cell.ljust(w))
-        lines.append("| " + " | ".join(cells) + " |")
-    lines.append(sep)
-    return "\n".join(lines)
 
 
 def severity_to_number(severity: str) -> int:
