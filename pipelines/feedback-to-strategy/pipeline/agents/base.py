@@ -11,40 +11,11 @@ from __future__ import annotations
 
 import time
 from abc import ABC, abstractmethod
-from functools import wraps
 from typing import Any
 
 import structlog
 
 from pipeline.config import AgentConfig
-
-
-def timed(func):  # noqa: ANN001, ANN201
-    """Decorator that measures execution time in milliseconds."""
-
-    @wraps(func)
-    def wrapper(*args: Any, **kwargs: Any) -> Any:
-        start = time.perf_counter()
-        result = func(*args, **kwargs)
-        elapsed_ms = (time.perf_counter() - start) * 1000
-        if hasattr(result, "processing_time_ms"):
-            result.processing_time_ms = round(elapsed_ms, 2)
-        return result
-
-    @wraps(func)
-    async def async_wrapper(*args: Any, **kwargs: Any) -> Any:
-        start = time.perf_counter()
-        result = await func(*args, **kwargs)
-        elapsed_ms = (time.perf_counter() - start) * 1000
-        if hasattr(result, "processing_time_ms"):
-            result.processing_time_ms = round(elapsed_ms, 2)
-        return result
-
-    import asyncio
-
-    if asyncio.iscoroutinefunction(func):
-        return async_wrapper
-    return wrapper
 
 
 class BaseAgent(ABC):
