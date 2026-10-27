@@ -360,7 +360,7 @@ pipeline agent 6
 - **Broadest context window**: Receives the complete output of all five upstream agents — the largest context in the pipeline
 - **Terminal agent**: No downstream consumers — output goes directly to human stakeholders
 - **Five parallel outputs**: Produces five independent communications from a single input, demonstrating audience-aware generation
-- **Format flexibility**: Each communication is markdown-formatted and can be directly pasted into email, Slack, or document tools
+- **Format flexibility**: Each communication is Markdown-formatted and can be directly pasted into email, Slack, or document tools
 
 ---
 
