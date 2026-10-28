@@ -1,4 +1,4 @@
-# When to use the pipeline vs a standalone agent
+# When to use the pipeline vs. a standalone agent
 
 A short decision guide.
 

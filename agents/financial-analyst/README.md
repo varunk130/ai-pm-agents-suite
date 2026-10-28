@@ -14,7 +14,7 @@ Takes a feature description and produces a complete financial model: revenue imp
 ## Outputs
 
 - Key metrics dashboard (ARR delta, payback period, NPV, expected ROI)
-- Assumption sourcing (so reviewers know what's a guess vs benchmarked)
+- Assumption sourcing (so reviewers know what's a guess vs. benchmarked)
 - Sensitivity analysis (which assumptions move the answer the most)
 - Ship / no-ship decision with reasoning
 

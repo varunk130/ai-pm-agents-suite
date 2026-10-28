@@ -99,7 +99,7 @@ The React dashboard runs the full pipeline in the browser, streaming each agent'
 - [`docs/overview.md`](./docs/overview.md) — what this suite is and how it's organized
 - [`docs/architecture.md`](./docs/architecture.md) — how the pipeline and standalone agents are designed
 - [`docs/agent-catalog.md`](./docs/agent-catalog.md) — quick reference for every agent
-- [`docs/comparison.md`](./docs/comparison.md) — when to use the pipeline vs a standalone agent
+- [`docs/comparison.md`](./docs/comparison.md) — when to use the pipeline vs. a standalone agent
 - [`docs/use-cases.md`](./docs/use-cases.md) — real PM scenarios mapped to agents
 
 ## Related projects
