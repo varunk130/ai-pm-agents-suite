@@ -6,6 +6,8 @@ All notable changes to the AI PM Agents Suite.
 
 ### Changed
 
+- Used "vs." consistently in the README, comparison doc, and financial-analyst README.
+- Capitalized Markdown in the stakeholder-translator README.
 - Removed unreferenced pipeline code: the `timed` decorator and the `truncate_text`, `create_severity_badge`, `format_table`, `severity_to_number`, and `format_correlation` helpers (#18). Verified against the full pytest suite.
 - Corrected the ai-gtm-skill-library reference in Related Work to 37 skills.
 
