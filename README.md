@@ -106,7 +106,7 @@ The React dashboard runs the full pipeline in the browser, streaming each agent'
 
 Part of a portfolio of AI agent and skill libraries:
 
-- [`claude-code-skills`](https://github.com/varunk130/claude-code-skills) — 29 production-grade Claude Code skills across finance, product, and strategy
+- [`claude-code-skills`](https://github.com/varunk130/claude-code-skills) — 42 production-grade Claude Code skills across AI UX, AI marketing, finance, product, and strategy
 - [`ai-gtm-skill-library`](https://github.com/varunk130/ai-gtm-skill-library) — 37 opinionated GTM skills across the full discover → renew lifecycle
 - [`ai-customer-discovery-skills`](https://github.com/varunk130/ai-customer-discovery-skills) — turn raw customer signal into validated product opportunities
 - [`ai-marketing-os`](https://github.com/varunk130/ai-marketing-os) — 9 marketing agents, 12 skills, end-to-end missions
